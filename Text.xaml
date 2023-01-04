@@ -1,0 +1,24 @@
+﻿<Window x:Class="Offer_letter.Text"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Offer_letter"
+        mc:Ignorable="d"
+        Title="Text" Height="1000" Width="800" Background="SandyBrown">
+    <ScrollViewer>
+    <Grid>
+        <StackPanel Margin="0,0,10,0" RenderTransformOrigin="0.496,0.524">
+            <Label Content="Job Offer Letter" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" FontWeight="Bold" Foreground="DarkBlue"></Label>
+            <StackPanel >
+                <Label Content="04/01/2023" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="16" FontWeight="Medium" Margin="60,010,0,0" ></Label>
+                <Label Content="" x:Name="lblAdd" HorizontalAlignment="Right" Width="313" Height="167" FontSize="20" FontWeight="Bold" Margin="0,0,40,0"/>
+            </StackPanel>
+            <StackPanel Height="700"> 
+                <Label Content="" x:Name="lblIntro" FontSize="16" FontWeight="Medium" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Margin="80,0,0,0"></Label>
+                <Label Content="" x:Name="lblFormat" FontSize="16" FontWeight="Medium" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Margin="80,20,0,0"></Label>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+    </ScrollViewer>
+</Window>
